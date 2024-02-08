@@ -8,4 +8,13 @@ usethis::edit_r_environ()
 
 usethis::git_sitrep()
 
-1+1
+#Pacotes:
+library(readxl)
+library(ExpDes.pt)
+
+#Importação de dados:
+dados_c <- read_xlsx(path="D:/Google/conceitos-basicos-r/dados_condutividade.xlsx")
+dados_c
+
+#ANOVA e teste de Tukey:
+dic(dados_c$tipo,dados_c$condutividade,quali=TRUE) 
