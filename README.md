@@ -4,5 +4,5 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-</style = text.align: 'center'> Testa alguma coisa!! </style>
+&#128507; Testa alguma coisa!! 
 
